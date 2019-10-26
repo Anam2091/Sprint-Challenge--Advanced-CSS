@@ -183,7 +183,7 @@ nav {
   display: flex;
 }
 nav p {
-  padding: 25px;
+  padding: 15px;
 }
 footer {
   color: #22283B;
@@ -260,4 +260,29 @@ footer {
   text-align: center;
   font-size: 20px;
   color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+@media (max-width: 500px) {
+  .sky,
+  .launch {
+    display: none;
+  }
+  .blast {
+    width: 100% !important;
+  }
+  .walk {
+    flex-direction: column-reverse !important;
+  }
+  .walk .walk-img {
+    width: 100% !important;
+  }
+  .walk-text {
+    width: 100% !important;
+  }
+  .btn {
+    width: 100% !important;
+  }
 }
